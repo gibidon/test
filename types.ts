@@ -3,3 +3,9 @@ type TPerson = {
 	age: number
 	isMarried: boolean
 }
+
+type TAnimal = {
+	name: string
+	age: number
+	makeSpund: () => void
+}
